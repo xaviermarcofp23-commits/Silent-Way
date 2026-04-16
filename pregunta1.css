@@ -1,0 +1,106 @@
+/* Centrar todo el contenido de la página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #9df3ef; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+/* Contenedor del formulario */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 350px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Header con texto centrado */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+/* Opciones de radio estilo tarjeta */
+form input[type="radio"] {
+    display: none; /* Oculta el botón por defecto */
+}
+
+form label {
+    display: block;
+    background-color: #f0f0f0;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+/* Cuando se selecciona una opción */
+form input[type="radio"]:checked + label {
+    background-color: #6495ed; /* Azul claro */
+    color: white;
+    border: 1px solid #357ab8;
+}
+
+/* Botón de enviar */
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6495ed; /* Azul claro */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: #357ab8;
+}
+
+/* Pie de página opcional */
+.footer {
+    margin-top: 15px;
+}
+
+.footer a {
+    display: block;
+    margin-top: 15px;
+    background-color: #5b84d6;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6495ed; /* Azul claro */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}

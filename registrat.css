@@ -1,0 +1,89 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fondo verde */
+body {
+    background-color: #6fd14c;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tarjeta */
+.container {
+    background-color: #eaeaea;
+    width: 350px;
+    padding: 30px 25px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Header */
+.header h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.logo {
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+/* Subtítulo */
+h2 {
+    margin: 15px 0;
+    font-size: 22px;
+}
+
+/* Labels */
+label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+/* Botón */
+.footer a {
+    display: block;
+    margin-top: 15px;
+    background-color: #5b84d6;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.footer a:hover {
+    background-color: #4a6fb5;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #9df3ef; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
